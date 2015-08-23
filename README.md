@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/TiteiKo/tax_manipulator.svg?branch=master)](https://travis-ci.org/TiteiKo/tax_manipulator)
+
 # TaxManipulator
 
 2014, France. Taxes go up from 19.6% to 20% on the 1st of January.
