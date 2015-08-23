@@ -43,13 +43,16 @@ Examples:
 # if you have your price including tax
 TaxManipulator.for(42, scheme: :incl_tax).price_excl_tax
 TaxManipulator.for(42, scheme: :incl_tax).vat
+TaxManipulator.for(42, scheme: :incl_tax, date: Date.parse('2013-12-10')).vat
 
 # if you have your price excluding tax
 TaxManipulator.for(42, scheme: :excl_tax).price_incl_tax
 TaxManipulator.for(42, scheme: :excl_tax).vat
+TaxManipulator.for(42, scheme: :excl_tax, date: Date.parse('2013-12-10')).vat
 
 # if the default scheme is set
 TaxManipulator.for(42).vat
+TaxManipulator.for(42, date: Date.parse('2013-12-10')).vat
 ```
 
 ## Development
