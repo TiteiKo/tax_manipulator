@@ -11,6 +11,8 @@ Today, I think it's finally time for me to cleanup and open source this bit of c
 
 ## Installation
 
+TaxManipulator requires **ruby >= 2.1** as it takes advantages of named parameters.
+
 Add this line to your application's Gemfile:
 
 ```ruby
